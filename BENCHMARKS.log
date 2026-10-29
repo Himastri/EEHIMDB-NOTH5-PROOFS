@@ -1,0 +1,11 @@
+EEHIM SHUTTLE V1 BENCHMARKS
+Generated: 2026-10-29T13:14:19.380578
+FACTORY = EEHIM DB + NOTH5 Render + ZENA + AUDREE/VECTOR PIP
+AUDREE 31 conns - 3 stages - 2645 bytes
+VECTOR 25 conns - 7 stages - 5841 bytes
+17 DBs: sap(4), oracle_db(2), oracle_apps(2), ibm_db2(2), dell_boomi(2), amazon_s3(2), amazon_rds(1), google_sheets(2), postgres(2), mysql(2), pgvector(1), pinecone(1), weaviate(1), mssql(2), sqlite(1), csv(2), mongodb(2)
+ETLREFER logic: Mark customer related info as TO_BE_EXPOSED_TO_ETL via ETLREFER column, pick CHAR/INT/VARCHAR TYPE REAL
+24h refresh: If <24h old fetch from EEHIM else Business DB, store in EEHIM, talk from EEHIM - No history, no scheduling
+VECTOR ETL: Creates non-vectored into vector / builds already vectored into front-end facing vector - Revolution for Chatbots/RAGs
+Crash proof: crash_proof.py present in AUDREE/VECTOR
+Monitoring: knows prior hand what connections exist, derives spikes, DB transfer history

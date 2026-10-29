@@ -1,0 +1,20 @@
+{
+  "project": "EEHIMDB-NOTH5-PROOFS",
+  "factory": "FACTORY1.0 V1 - EEHIMDB V16 + NOTH5 V1 + ZENA + AUDREE/VECTOR PIP",
+  "definition": "FACTORY = (EEHIM DB + NOTH5 Render + ZENA) + AUDREE or VECTOR (both PIP)",
+  "eehim": "Runtime Type-Aware Self-Assembling UI Execution Fabric, 5-Plane Contract, TYPE REAL, ETLREFER, 24h refresh",
+  "noth5_v1": "Rendering ONLY in chat bubble/RAG bubble, exists inside PIP",
+  "zena": "Voice Chatbot/RAG + Auto Ticketing + Voice Calling, does NOT require NOTH5, voice-controlled rendering integration",
+  "audree": "3 stages 2645 bytes - Any DB to Any DB",
+  "vector": "7 stages 5841 bytes - Any DB to Any DB + Vector rebuilding - Business DB vector internal, Shuttle vector customer-facing Chatbot/RAG",
+  "connections": {
+    "audree": 31,
+    "vector": 25,
+    "dbs": 17,
+    "multi_protocol": true
+  },
+  "timestamp": "2026-10-29T13:14:19.357444",
+  "files_hashed": 149,
+  "no_source": true,
+  "purpose": "Agency sales proof - hashes/logs/benchmarks/crash proofs only"
+}

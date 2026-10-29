@@ -1,0 +1,751 @@
+{
+  "generated": "2026-10-29T13:14:19.379033",
+  "total": 149,
+  "hashes": [
+    {
+      "file": "AUDREE/FACTORY_MANIFEST.json",
+      "sha256": "ae004454f3361c4a976b70f13dcc42b3a7cba78e834a1bed4403dfb398210376",
+      "size": 196
+    },
+    {
+      "file": "AUDREE/SHUTTLE_V2_LAW_FROZEN.txt",
+      "sha256": "617f886f9811f5adf3e44ebcedfa9304b76c7c8e4c289074dfc423f7a9eafd58",
+      "size": 784
+    },
+    {
+      "file": "AUDREE/VERSION.json",
+      "sha256": "d2a458a30258c371ccd2f916625c39418f3b42414131eabe1f3ba7c9941c48af",
+      "size": 144
+    },
+    {
+      "file": "AUDREE/connections/_factory/connection_base.py",
+      "sha256": "9e6012af5ecebcd70df8046d27766ca6ca52f1989137f7b46a0d4869548bb257",
+      "size": 166
+    },
+    {
+      "file": "AUDREE/connections/_template/connection.json",
+      "sha256": "844aa0af623fdb88d300eec5550809553fae72e77175781b0d47ec8065fd737b",
+      "size": 62
+    },
+    {
+      "file": "AUDREE/connections/amazon_rds/boto3/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/amazon_rds/boto3/setup.json",
+      "sha256": "479245bb5556bf552177085cd94e58130cc2472bd6d65f5a3d7e22616ece6131",
+      "size": 41
+    },
+    {
+      "file": "AUDREE/connections/amazon_s3/boto3/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/amazon_s3/boto3/setup.json",
+      "sha256": "b8c27a2c4966722eced7c78654369f9f677a4a57cf1d19876c253b426a580964",
+      "size": 40
+    },
+    {
+      "file": "AUDREE/connections/amazon_s3/rest/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/amazon_s3/rest/setup.json",
+      "sha256": "5035a5ea1835dd0de81c30f2f3909628b59e69df8e2661946e0549df2cc21ca8",
+      "size": 296
+    },
+    {
+      "file": "AUDREE/connections/csv/file/connector.py",
+      "sha256": "767a455c60004abb5453d8bcde98961a956b1a27d3d3f028dbe8adfd703ee33b",
+      "size": 875
+    },
+    {
+      "file": "AUDREE/connections/csv/file/setup.json",
+      "sha256": "a98d36e89e75fd089fd236a4f2a5ff4bd66097e680eee267e2831c340fc6ada2",
+      "size": 33
+    },
+    {
+      "file": "AUDREE/connections/csv/ftp/connector.py",
+      "sha256": "767a455c60004abb5453d8bcde98961a956b1a27d3d3f028dbe8adfd703ee33b",
+      "size": 875
+    },
+    {
+      "file": "AUDREE/connections/csv/ftp/setup.json",
+      "sha256": "74d239c7bcc4fb9eb86577dec3847e1dc60afa31aa21259d0afaf99521d4be2b",
+      "size": 300
+    },
+    {
+      "file": "AUDREE/connections/dell_boomi/rest/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/dell_boomi/rest/setup.json",
+      "sha256": "e37e548c17d809c885167f25bf68b6e606ce57cb53116331a8a16d7dcbfeb8bc",
+      "size": 94
+    },
+    {
+      "file": "AUDREE/connections/dell_boomi/soap/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/dell_boomi/soap/setup.json",
+      "sha256": "7c8cdd48a37284ecd2a3180c17ea31246db32105d571c813d9cb7875d19087b6",
+      "size": 324
+    },
+    {
+      "file": "AUDREE/connections/google_sheets/api_v4/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/google_sheets/api_v4/setup.json",
+      "sha256": "25364d901d150091fc311846f7b5620c5b148ef59e081469a3f74d54c0dcfe1e",
+      "size": 45
+    },
+    {
+      "file": "AUDREE/connections/google_sheets/oauth/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/google_sheets/oauth/setup.json",
+      "sha256": "0cdcfd779adab955d6645a027ea90d593c34b15186630169de4c32147dd08859",
+      "size": 336
+    },
+    {
+      "file": "AUDREE/connections/ibm_db2/cli/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/ibm_db2/cli/setup.json",
+      "sha256": "42b2d348b1ff95a8a57ad24dbf42e83c2014dc1ee0a7cb9b799b84af82002af3",
+      "size": 108
+    },
+    {
+      "file": "AUDREE/connections/ibm_db2/odbc/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/ibm_db2/odbc/setup.json",
+      "sha256": "e06535499dfb5e227d0d3302e421e6b3b16cfa6f1f2203995c96c73882aee0e8",
+      "size": 315
+    },
+    {
+      "file": "AUDREE/connections/mongodb/atlas/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/mongodb/atlas/setup.json",
+      "sha256": "be302fc038110fd0f7ff8fda871cb99085cdb1e2dbd98b982e7d18d4e4b31a30",
+      "size": 38
+    },
+    {
+      "file": "AUDREE/connections/mongodb/pymongo/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/mongodb/pymongo/setup.json",
+      "sha256": "cb991e399a69433cdc9ea02bc07ac2b41d024f280336965fae0a6dc4f5c7e5c2",
+      "size": 40
+    },
+    {
+      "file": "AUDREE/connections/mssql/odbc/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/mssql/odbc/setup.json",
+      "sha256": "228b956b4c97cf43178f3a23ccfdaee7dd05dc8d84b8fbc8c251fcfecd1fff61",
+      "size": 35
+    },
+    {
+      "file": "AUDREE/connections/mssql/pymssql/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/mssql/pymssql/setup.json",
+      "sha256": "41d1f05e7dcabc6e7a64ee2fa1ad633bd221ace976095fe861cddcff882cd4f7",
+      "size": 318
+    },
+    {
+      "file": "AUDREE/connections/mysql/mysql-connector/connector.py",
+      "sha256": "fa972ff4d8291ce486533847423ba5aac79f34a5ce8c3d59b1bba235fc072c4f",
+      "size": 828
+    },
+    {
+      "file": "AUDREE/connections/mysql/mysql-connector/setup.json",
+      "sha256": "325f7e680d2e01a0946dcef875fd7d71f9c62f67c64c39d1e9894dc2a2f37da0",
+      "size": 46
+    },
+    {
+      "file": "AUDREE/connections/mysql/pymysql/connector.py",
+      "sha256": "fa972ff4d8291ce486533847423ba5aac79f34a5ce8c3d59b1bba235fc072c4f",
+      "size": 828
+    },
+    {
+      "file": "AUDREE/connections/mysql/pymysql/setup.json",
+      "sha256": "8569f9c131116aeab3776b44c84c9f7983cd1635e9d90bf1542814bee32f3248",
+      "size": 318
+    },
+    {
+      "file": "AUDREE/connections/oracle_apps/rest/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/oracle_apps/rest/setup.json",
+      "sha256": "76bc7dda1d72abb1d199f9ac14acec64f5db9edc0a961ec2b72c2105eacc5a4a",
+      "size": 41
+    },
+    {
+      "file": "AUDREE/connections/oracle_apps/soap/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/oracle_apps/soap/setup.json",
+      "sha256": "549659480cc5dc046b895e3e9d11d2358a21130210239718abe4764d3277c9af",
+      "size": 41
+    },
+    {
+      "file": "AUDREE/connections/oracle_db/jdbc/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/oracle_db/jdbc/setup.json",
+      "sha256": "386ab494bd725775948c32ddffa7c3c5c82d85686c2f7e743dd18abf794c020e",
+      "size": 93
+    },
+    {
+      "file": "AUDREE/connections/oracle_db/oci/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/oracle_db/oci/setup.json",
+      "sha256": "20750244efa78fadf401ac7aea37538a34ad75a123d150746067c0d25738b94a",
+      "size": 103
+    },
+    {
+      "file": "AUDREE/connections/pgvector/psycopg2/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/pgvector/psycopg2/setup.json",
+      "sha256": "a863cede51760dcb607bb13d91346761846495aa4a0d6637464aabd7a94f68fe",
+      "size": 42
+    },
+    {
+      "file": "AUDREE/connections/pinecone/sdk/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/pinecone/sdk/setup.json",
+      "sha256": "1e9abc0f79e8d70d6d45c488f13f4fd74d405d7d30cdd28041d4ac15cc4910f3",
+      "size": 37
+    },
+    {
+      "file": "AUDREE/connections/postgres/pg8000/connector.py",
+      "sha256": "02aa34c844aa7f1394422a1f34451b3b41daf8af114889200714ed7e0c784d8d",
+      "size": 1108
+    },
+    {
+      "file": "AUDREE/connections/postgres/pg8000/setup.json",
+      "sha256": "b17aab6a32953a9001eefd668cd0469e8aabff7346cbe1b3f5b48372fa7cb019",
+      "size": 324
+    },
+    {
+      "file": "AUDREE/connections/postgres/psycopg2/connector.py",
+      "sha256": "02aa34c844aa7f1394422a1f34451b3b41daf8af114889200714ed7e0c784d8d",
+      "size": 1108
+    },
+    {
+      "file": "AUDREE/connections/postgres/psycopg2/setup.json",
+      "sha256": "3ec92142eee1fd17d9d95d34b873b3751d305b0b8639dbced949afe6f0192256",
+      "size": 269
+    },
+    {
+      "file": "AUDREE/connections/sap/bapi/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/sap/bapi/setup.json",
+      "sha256": "7e2a6c8d2622b47072a07c3e2d0113e8ccb68353b5d0c01f071a6e3d7adb4edd",
+      "size": 81
+    },
+    {
+      "file": "AUDREE/connections/sap/idoc/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/sap/idoc/setup.json",
+      "sha256": "42cf1b2f671594d9dc7f41ebe468ca0df43adedda84d6e71197dc77e5b123898",
+      "size": 81
+    },
+    {
+      "file": "AUDREE/connections/sap/odata/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/sap/odata/setup.json",
+      "sha256": "676052cbd00fe3b1a7040f534c35461a2261aec66ad84a64fc7aabcab86558db",
+      "size": 94
+    },
+    {
+      "file": "AUDREE/connections/sap/rfc/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/sap/rfc/setup.json",
+      "sha256": "190d1416658bf601a5c27e124ca90b0d3d9f356399d9fff3f093b999edfb560c",
+      "size": 105
+    },
+    {
+      "file": "AUDREE/connections/sqlite/sqlite3/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/sqlite/sqlite3/setup.json",
+      "sha256": "9996c61fa83570a094545cb3472c381923765f751557c2c09a6fa84f313838fa",
+      "size": 39
+    },
+    {
+      "file": "AUDREE/connections/weaviate/sdk/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "AUDREE/connections/weaviate/sdk/setup.json",
+      "sha256": "99cc990c2b69f8804cfc34be15e71511627d5b217e308a2ae8d9b66eeb5c7ceb",
+      "size": 37
+    },
+    {
+      "file": "AUDREE/crash_proof/crash_proof.py",
+      "sha256": "ec88151b39de5c9d8b8ce3ce2729c4686b2cccde20992947de971ad97ad050d4",
+      "size": 1244
+    },
+    {
+      "file": "AUDREE/engine/shuttle_engine_006_batch.py",
+      "sha256": "754975f087c430a78d5503180fcb5b628b6910d29638fee39c33e350274ef46e",
+      "size": 7590
+    },
+    {
+      "file": "AUDREE/monitoring/metrics.py",
+      "sha256": "e575b4d7eaaac7d544943c2512ce05deb1c5d273e11fa0ffcba3a21b3cb5a0ae",
+      "size": 1528
+    },
+    {
+      "file": "AUDREE/pip/setup.py",
+      "sha256": "c21975cd7a44e5a9c65f29512f054db6e98f9ed8ff84297aead51c627984d6c7",
+      "size": 1392
+    },
+    {
+      "file": "AUDREE/shuttle_key.json",
+      "sha256": "ab9203c91bde891336e80804abd1136ebcf73c23de7c6055352c6d88be8c7495",
+      "size": 314
+    },
+    {
+      "file": "AUDREE/shuttle_root.py",
+      "sha256": "0145727191e9f7677b60df61ffd13e740aae8453f2abf8fbb693135f3d16788f",
+      "size": 11241
+    },
+    {
+      "file": "AUDREE/stages/stage_001_extract.py",
+      "sha256": "ea962548a8911c7f1f135de83aae61c2645fee07219c8a9917dece806b538b47",
+      "size": 959
+    },
+    {
+      "file": "AUDREE/stages/stage_005_load.py",
+      "sha256": "0ab9ff70deea0cfe6722f6076cf6dab8e0df58efb9f9c83d20b4a550dcc9d464",
+      "size": 845
+    },
+    {
+      "file": "AUDREE/stages/stage_006_batch.py",
+      "sha256": "392ca6c6b6fbfbbdab6773ed4c45deb9544fac7aec4662d502d0e81cfbc3188e",
+      "size": 841
+    },
+    {
+      "file": "FACTORY_CORE/FACTORY_MANIFEST.json",
+      "sha256": "c5e876852cd0dd75cd6a13cd5b38d2f85bf25088398def0ad173b0b9a5922088",
+      "size": 2001
+    },
+    {
+      "file": "FACTORY_MANIFEST.json",
+      "sha256": "ae004454f3361c4a976b70f13dcc42b3a7cba78e834a1bed4403dfb398210376",
+      "size": 196
+    },
+    {
+      "file": "VECTOR/SHUTTLE_V2_LAW_FROZEN.txt",
+      "sha256": "617f886f9811f5adf3e44ebcedfa9304b76c7c8e4c289074dfc423f7a9eafd58",
+      "size": 784
+    },
+    {
+      "file": "VECTOR/VERSION.json",
+      "sha256": "a14cd65406446faac5711347cb3be46d45aff891faee7a4a5f8e732965187ee1",
+      "size": 171
+    },
+    {
+      "file": "VECTOR/connections/_factory/connection_base.py",
+      "sha256": "8f4a861718382a2583174bfc15e615b7b0fdc70c0511d4f21a23cddf63ff3520",
+      "size": 208
+    },
+    {
+      "file": "VECTOR/connections/_template/connection.json",
+      "sha256": "844aa0af623fdb88d300eec5550809553fae72e77175781b0d47ec8065fd737b",
+      "size": 62
+    },
+    {
+      "file": "VECTOR/connections/amazon_rds/boto3/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "VECTOR/connections/amazon_rds/boto3/setup.json",
+      "sha256": "479245bb5556bf552177085cd94e58130cc2472bd6d65f5a3d7e22616ece6131",
+      "size": 41
+    },
+    {
+      "file": "VECTOR/connections/amazon_s3/boto3/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "VECTOR/connections/amazon_s3/boto3/setup.json",
+      "sha256": "b8c27a2c4966722eced7c78654369f9f677a4a57cf1d19876c253b426a580964",
+      "size": 40
+    },
+    {
+      "file": "VECTOR/connections/csv/file/connector.py",
+      "sha256": "767a455c60004abb5453d8bcde98961a956b1a27d3d3f028dbe8adfd703ee33b",
+      "size": 875
+    },
+    {
+      "file": "VECTOR/connections/csv/file/setup.json",
+      "sha256": "a98d36e89e75fd089fd236a4f2a5ff4bd66097e680eee267e2831c340fc6ada2",
+      "size": 33
+    },
+    {
+      "file": "VECTOR/connections/csv/ftp/connector.py",
+      "sha256": "767a455c60004abb5453d8bcde98961a956b1a27d3d3f028dbe8adfd703ee33b",
+      "size": 875
+    },
+    {
+      "file": "VECTOR/connections/csv/ftp/setup.json",
+      "sha256": "af38dff4df18fe7bae5b3bbe1a19c98ed61b2afb8a801d20f61f9c3895a59374",
+      "size": 300
+    },
+    {
+      "file": "VECTOR/connections/dell_boomi/rest/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "VECTOR/connections/dell_boomi/rest/setup.json",
+      "sha256": "33416bf88e55cb5bf022d216dccd2f1f4faa5195aedea2952dcbc343182945ce",
+      "size": 40
+    },
+    {
+      "file": "VECTOR/connections/google_sheets/api_v4/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "VECTOR/connections/google_sheets/api_v4/setup.json",
+      "sha256": "25364d901d150091fc311846f7b5620c5b148ef59e081469a3f74d54c0dcfe1e",
+      "size": 45
+    },
+    {
+      "file": "VECTOR/connections/ibm_db2/cli/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "VECTOR/connections/ibm_db2/cli/setup.json",
+      "sha256": "c593280b5a63297b7e35e05ccd514c1c81ab20de47cdaaab28fbbc466a3086a3",
+      "size": 36
+    },
+    {
+      "file": "VECTOR/connections/mongodb/atlas/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "VECTOR/connections/mongodb/atlas/setup.json",
+      "sha256": "be302fc038110fd0f7ff8fda871cb99085cdb1e2dbd98b982e7d18d4e4b31a30",
+      "size": 38
+    },
+    {
+      "file": "VECTOR/connections/mongodb/pymongo/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "VECTOR/connections/mongodb/pymongo/setup.json",
+      "sha256": "cb991e399a69433cdc9ea02bc07ac2b41d024f280336965fae0a6dc4f5c7e5c2",
+      "size": 40
+    },
+    {
+      "file": "VECTOR/connections/mssql/odbc/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "VECTOR/connections/mssql/odbc/setup.json",
+      "sha256": "228b956b4c97cf43178f3a23ccfdaee7dd05dc8d84b8fbc8c251fcfecd1fff61",
+      "size": 35
+    },
+    {
+      "file": "VECTOR/connections/mysql/mysql-connector/connector.py",
+      "sha256": "fa972ff4d8291ce486533847423ba5aac79f34a5ce8c3d59b1bba235fc072c4f",
+      "size": 828
+    },
+    {
+      "file": "VECTOR/connections/mysql/mysql-connector/setup.json",
+      "sha256": "325f7e680d2e01a0946dcef875fd7d71f9c62f67c64c39d1e9894dc2a2f37da0",
+      "size": 46
+    },
+    {
+      "file": "VECTOR/connections/mysql/pymysql/connector.py",
+      "sha256": "fa972ff4d8291ce486533847423ba5aac79f34a5ce8c3d59b1bba235fc072c4f",
+      "size": 828
+    },
+    {
+      "file": "VECTOR/connections/mysql/pymysql/setup.json",
+      "sha256": "5fb0add613443a2bac128a05dfcd77e8c5e75e31019f4a43fdba21b17733ee79",
+      "size": 318
+    },
+    {
+      "file": "VECTOR/connections/oracle_apps/rest/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "VECTOR/connections/oracle_apps/rest/setup.json",
+      "sha256": "76bc7dda1d72abb1d199f9ac14acec64f5db9edc0a961ec2b72c2105eacc5a4a",
+      "size": 41
+    },
+    {
+      "file": "VECTOR/connections/oracle_db/jdbc/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "VECTOR/connections/oracle_db/jdbc/setup.json",
+      "sha256": "6af9699fd39528391b8008ca4320fbb247ce060cb1184339eef0f73f0c890cc6",
+      "size": 39
+    },
+    {
+      "file": "VECTOR/connections/oracle_db/oci/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "VECTOR/connections/oracle_db/oci/setup.json",
+      "sha256": "91b00cb85c603cd1638c568258ed4188efa20364c177f502eac18309d2809b14",
+      "size": 38
+    },
+    {
+      "file": "VECTOR/connections/pgvector/psycopg2/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "VECTOR/connections/pgvector/psycopg2/setup.json",
+      "sha256": "a863cede51760dcb607bb13d91346761846495aa4a0d6637464aabd7a94f68fe",
+      "size": 42
+    },
+    {
+      "file": "VECTOR/connections/pinecone/sdk/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "VECTOR/connections/pinecone/sdk/setup.json",
+      "sha256": "1e9abc0f79e8d70d6d45c488f13f4fd74d405d7d30cdd28041d4ac15cc4910f3",
+      "size": 37
+    },
+    {
+      "file": "VECTOR/connections/postgres/pg8000/connector.py",
+      "sha256": "02aa34c844aa7f1394422a1f34451b3b41daf8af114889200714ed7e0c784d8d",
+      "size": 1108
+    },
+    {
+      "file": "VECTOR/connections/postgres/pg8000/setup.json",
+      "sha256": "9168be7b04ce71e847a2018ea507a29674f0beafdb0e08c1d8375631e90cb73f",
+      "size": 40
+    },
+    {
+      "file": "VECTOR/connections/postgres/psycopg2/connector.py",
+      "sha256": "02aa34c844aa7f1394422a1f34451b3b41daf8af114889200714ed7e0c784d8d",
+      "size": 1108
+    },
+    {
+      "file": "VECTOR/connections/postgres/psycopg2/setup.json",
+      "sha256": "cde8b9c53d28b7a4978e540e2488e734e6cb7aaf96dda1b586a0d62b6405ff4e",
+      "size": 42
+    },
+    {
+      "file": "VECTOR/connections/sap/bapi/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "VECTOR/connections/sap/bapi/setup.json",
+      "sha256": "bd4f0eff1c9cd65d5dd1ccd36724ee139b0e47dbc10c60b69a73b3503764ff93",
+      "size": 33
+    },
+    {
+      "file": "VECTOR/connections/sap/idoc/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "VECTOR/connections/sap/idoc/setup.json",
+      "sha256": "0b9c0fa2ac52bad05c3c93bd9d1f8f69b26d34caa4a016134fb62903137de261",
+      "size": 33
+    },
+    {
+      "file": "VECTOR/connections/sap/odata/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "VECTOR/connections/sap/odata/setup.json",
+      "sha256": "763d1e3626df56d8620b87ea751d29106fff7d2f33f87ca93dbbe654d1f948b2",
+      "size": 56
+    },
+    {
+      "file": "VECTOR/connections/sap/rfc/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "VECTOR/connections/sap/rfc/setup.json",
+      "sha256": "c72d2b0e517a05b56e6c44ed6e15a9b5bfab257c0af8ce0dbfd320aea21374eb",
+      "size": 54
+    },
+    {
+      "file": "VECTOR/connections/sqlite/sqlite3/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "VECTOR/connections/sqlite/sqlite3/setup.json",
+      "sha256": "9996c61fa83570a094545cb3472c381923765f751557c2c09a6fa84f313838fa",
+      "size": 39
+    },
+    {
+      "file": "VECTOR/connections/weaviate/sdk/connector.py",
+      "sha256": "21a4f3d7a589b03f3be9a41835adec59cc62f11e123cd199b3d26a5b7321987d",
+      "size": 456
+    },
+    {
+      "file": "VECTOR/connections/weaviate/sdk/setup.json",
+      "sha256": "99cc990c2b69f8804cfc34be15e71511627d5b217e308a2ae8d9b66eeb5c7ceb",
+      "size": 37
+    },
+    {
+      "file": "VECTOR/crash_proof/crash_proof.py",
+      "sha256": "ec88151b39de5c9d8b8ce3ce2729c4686b2cccde20992947de971ad97ad050d4",
+      "size": 1244
+    },
+    {
+      "file": "VECTOR/engine/shuttle_engine_006_batch.py",
+      "sha256": "754975f087c430a78d5503180fcb5b628b6910d29638fee39c33e350274ef46e",
+      "size": 7590
+    },
+    {
+      "file": "VECTOR/monitoring/metrics.py",
+      "sha256": "e575b4d7eaaac7d544943c2512ce05deb1c5d273e11fa0ffcba3a21b3cb5a0ae",
+      "size": 1528
+    },
+    {
+      "file": "VECTOR/pip/setup.py",
+      "sha256": "c21975cd7a44e5a9c65f29512f054db6e98f9ed8ff84297aead51c627984d6c7",
+      "size": 1392
+    },
+    {
+      "file": "VECTOR/shuttle_key.json",
+      "sha256": "ab9203c91bde891336e80804abd1136ebcf73c23de7c6055352c6d88be8c7495",
+      "size": 314
+    },
+    {
+      "file": "VECTOR/shuttle_root.py",
+      "sha256": "0145727191e9f7677b60df61ffd13e740aae8453f2abf8fbb693135f3d16788f",
+      "size": 11241
+    },
+    {
+      "file": "VECTOR/stages/stage_001_extract.py",
+      "sha256": "ea962548a8911c7f1f135de83aae61c2645fee07219c8a9917dece806b538b47",
+      "size": 959
+    },
+    {
+      "file": "VECTOR/stages/stage_002_transform.py",
+      "sha256": "1e8fbf8880e4548e554cabbdcfa29c9d1c67c5179295771b3f4ab7714a434b54",
+      "size": 891
+    },
+    {
+      "file": "VECTOR/stages/stage_003_validate.py",
+      "sha256": "c25c61509eabdfa5c6c908814be2314a540854a2f9fdaec85d7008f4b8e35569",
+      "size": 626
+    },
+    {
+      "file": "VECTOR/stages/stage_004_enrich.py",
+      "sha256": "d8b611ea8a4af7f73f36cd8c564495ff5e8a4279f7cc5d81e714d9f9ec381ee9",
+      "size": 807
+    },
+    {
+      "file": "VECTOR/stages/stage_005_load.py",
+      "sha256": "0ab9ff70deea0cfe6722f6076cf6dab8e0df58efb9f9c83d20b4a550dcc9d464",
+      "size": 845
+    },
+    {
+      "file": "VECTOR/stages/stage_006_batch.py",
+      "sha256": "392ca6c6b6fbfbbdab6773ed4c45deb9544fac7aec4662d502d0e81cfbc3188e",
+      "size": 841
+    },
+    {
+      "file": "VECTOR/stages/stage_007_audit.py",
+      "sha256": "84264c60756aa9973df1574736bb0c255d849ebe552cb1be886c2283a3860ef1",
+      "size": 872
+    },
+    {
+      "file": "ZENA/ZENA_MANIFEST.json",
+      "sha256": "c259c371db32ce5db2f23b0ad642b85d25b26b6f81403c9d80472147ea033e1a",
+      "size": 519
+    },
+    {
+      "file": "monitoring/dashboard.html",
+      "sha256": "aa3d1e542382e0743c0b21e929d50721ac6b8a502e9f8bd2d87021a3f678d7e6",
+      "size": 9702
+    },
+    {
+      "file": "monitoring/metrics.py",
+      "sha256": "e575b4d7eaaac7d544943c2512ce05deb1c5d273e11fa0ffcba3a21b3cb5a0ae",
+      "size": 1528
+    },
+    {
+      "file": "monitoring/troubleshooting.html",
+      "sha256": "820f8cbb15c4db29b8cb1f6b8b2d07f0a8d7efc16fb6a7c85f8ee91ab5324c98",
+      "size": 23733
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+CRASH PROOF LOG
+2026-10-29T13:14:19.380578
+Engine: shuttle_engine_006_batch.py 7590 bytes
+PIP setup: setup.py 1392 bytes
+Monitoring: metrics.py - scan() knows prior hand connections
+AUDREE: stage_001_extract, stage_005_load, stage_006_batch
+VECTOR: stage_001-007 extract, transform, validate, enrich, load, batch, audit
+Connection base: connect(), has_etlrefer(), fetch(), get_metadata() + fetch_vector() for VECTOR
+All connectors have setup.json + connector.py
+No UI needed - just monitoring + troubleshooting screens with predefined test data that isolates problem
